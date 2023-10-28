@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+
+#main{
+    font-size: 25px;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+#nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    /* background-color: red; */
+}
+
+#nav-part-2{
+    display: flex;
+    font-size: 15px;
+    gap: 55px;
+}
+#nav-part-3{
+    display: flex;
+    gap: 55px;
+    align-items: center;
+    font-size: 15px;
+}
+
+#nav img{
+    width: 10em;
+}
+
+#nav h3{
+    text-transform: uppercase;
+}
+#nav h4{
+    text-transform: uppercase;
+}
+#nav button{
+    text-transform: uppercase;
+    color: black;
+    background-color: white;
+    padding: 10px 20px;
+    font-weight: 700;
+    font-size: 15px;
+
+}
+
+
+#main h1{
+    position: relative;
+    text-transform: uppercase;
+    font-size: 130px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10 !important;
+}
+
+#main h1 span{
+    font-size: 50px;
+    background-color: brown;
+    border-radius: 50px;
+    padding: 20px 40px ;
+    margin: 0 30px;
+}
+
+#main h1:nth-child(2){
+    margin-top: 60px;
+}
+
+
+#main #left-image{
+    width: 150px;
+    position: absolute;
+    top: 22%;
+    border-radius: 30px;
+    left: 6%;
+    
+}
+
+#main #right-image{
+    width: 200px;
+    position: absolute;
+    bottom: 13%;
+    border-radius: 30px;
+    right: 6%;
+  
+}
+#main #top-image{
+    width: 230px;
+    position: absolute;
+    top: 14%;
+    border-radius: 30px;
+    right: 25%;
+}
+#main #bottom-image{
+    width: 425px;
+    position: absolute;
+    bottom: 12%;
+    border-radius: 30px;
+    left: 17%;
+
+}
+
+
+h5{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%,0);
+    font-size: 20px;
+}
